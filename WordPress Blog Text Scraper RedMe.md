@@ -12,6 +12,8 @@ Extract all text content from WordPress blog posts:
 - ✅ Creates a master index CSV file for easy reference
 - ✅ Chronologically sorted from oldest to newest
 
+> **⚠️ CRITICAL:** When exporting from WordPress, you must select **"Posts"** (your blog entries), NOT "Pages" (static pages like About/Contact). This is the most common mistake! See the export instructions below for details.
+
 ## Two Methods Available
 
 ### Method 1: XML Export Parser (RECOMMENDED)
@@ -87,7 +89,9 @@ pip install requests beautifulsoup4 lxml --user
 
 1. Log into WordPress.com
 2. Go to **Tools → Export**
-3. Select **Posts** (not "All content")
+3. **CRITICAL:** Select **Posts** (NOT "All content" and NOT "Pages")
+   - Posts = Your blog entries (the 825 items you want) ✅
+   - Pages = Static pages like "About", "Contact" (you don't want these) ❌
 4. Set date range (e.g., October 2016 to November 2025)
 5. Click **"Download Export File"**
 6. Save the XML file (will be named like `yourblog.WordPress.2025-11-02.xml`)
@@ -206,7 +210,9 @@ python -m pip install requests beautifulsoup4 lxml
 ```
 
 ### XML Parser Found 0 Posts
-- Make sure you exported **Posts** (not Pages)
+- Make sure you exported **Posts** (not Pages or "All content")
+- Posts = Blog entries with dates (what you want)
+- Pages = Static pages like About/Contact (not what you want)
 - Check that the XML file isn't corrupted
 - Run the diagnostic: `python xml_analyzer.py yourfile.xml`
 
