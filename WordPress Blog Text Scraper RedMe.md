@@ -17,7 +17,7 @@ Extract all text content from WordPress blog posts:
 ## Two Methods Available
 
 ### Method 1: XML Export Parser (RECOMMENDED)
-**Best for:** Getting ALL posts from any time period (works for 825+ posts)
+**Best for:** Getting ALL posts from any time period (tested with 825 posts)
 
 **Pros:**
 - Gets every published post from the entire blog history
