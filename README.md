@@ -1,21 +1,22 @@
 # KellyPublicStuff
 
-This repository contains a selection of my personal scripts and small utilities that I’ve decided to share publicly.  
-They’re here so others can reference, learn from, or adapt ideas for their own use.
+This repository contains a collection of my personal scripts and small utilities that I’ve chosen to share publicly.  
+They’re here for others to view, learn from, or adapt ideas from — not for collaboration or modification.
 
-All files are made available as-is — please do not submit edits or pull requests.  
-If you’d like to use any of the code, feel free to copy it directly or fork your own version.
+All content is provided as-is.  
+Please **do not submit edits or pull requests**. If something here is useful to you, feel free to copy or fork it.
 
 ---
 
 ### 📂 Contents
-Scripts may include:
-- PowerShell utilities for system administration
-- Python snippets and examples
-- General-purpose tools or templates
+This repo may include:
+- PowerShell (`.ps1`) scripts for system administration and automation  
+- Windows batch (`.bat`) files for quick tasks and deployment helpers  
+- VBScript (`.vbs`) utilities for legacy automation and compatibility  
+- General templates or text reference files
 
 ---
 
 ### 📘 About
 Created and maintained by **Kelly Haggett**  
-Shared for open access and transparency — not for collaboration or modification.
+Shared for open access, transparency, and reference use — not for direct collaboration or code contributions.
