@@ -90,7 +90,7 @@ pip install requests beautifulsoup4 lxml --user
 1. Log into WordPress.com
 2. Go to **Tools → Export**
 3. **CRITICAL:** Select **Posts** (NOT "All content" and NOT "Pages")
-   - Posts = Your blog entries (the 825 items you want) ✅
+   - Posts = Your blog entries ✅
    - Pages = Static pages like "About", "Contact" (you don't want these) ❌
 4. Set date range (e.g., October 2016 to November 2025)
 5. Click **"Download Export File"**
